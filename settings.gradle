@@ -1,0 +1,5 @@
+include ':cStress'
+include ':datakitapi'
+project(':datakitapi').projectDir=new File('../mCerebrum-DataKitAPI/datakitapi')
+include ':stream-processor'
+project(':stream-processor').projectDir=new File('../stream-processor')
